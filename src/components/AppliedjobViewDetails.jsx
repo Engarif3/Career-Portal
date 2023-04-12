@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const AppliedjobViewDetails = ({ job }) => {
@@ -49,7 +49,9 @@ const AppliedjobViewDetails = ({ job }) => {
         </div>
       </div>
 
-      <button className="btn-primary w-fit">View Details</button>
+      <Link to ={`/jobCard/${job.id}`}>
+            <button className="btn-primary w-fit">View Details</button>
+      </Link>
     </div>
     </div>
   );
