@@ -34,7 +34,10 @@ const JobDetails = () => {
 
   return (
     <div>
-       <div  className="banner mb-40 bg-slate-500">
+       <div  className="banner mb-40 ">
+       <div className="flex justify-center items-center">
+          <h2 className="text-5xl font-bold">Applied Jobs</h2>
+        </div>
         <img  className="absolute top-0 right-0 transform scale-x-1" src={image2} alt="banner" />
         <img className="absolute top-24"  src={image1} alt="banner" /> 
       </div>
