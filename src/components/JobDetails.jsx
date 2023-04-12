@@ -28,7 +28,7 @@ const JobDetails = () => {
       setAppliedJobs([...appliedJobs, appliedJob]);
       const savedJobs = JSON.parse(localStorage.getItem("savedJobs")) || [];
       localStorage.setItem("savedJobs", JSON.stringify([...savedJobs, appliedJob]));
-      // toast.success("Job application saved");
+      toast.success("You have just applied for this job");
     }
   };
 
