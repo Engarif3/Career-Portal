@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "logo": "https://as2.ftcdn.net/v2/jpg/02/85/82/89/1000_F_285828947_7LvtUCUFARVTzcxvPDM2EkTuknA50buy.jpg",
+    "categoryNAme": "Electrical Engineering",
+    "availability": "375 jobs available"
+  },
+  {
+    "id": 2,
+    "logo": "https://cdn.iconscout.com/icon/premium/png-512-thumb/software-engineering-1-1105694.png?f=avif&w=512",
+    "categoryNAme": "Software Engineering",
+    "availability": "165 jobs available"
+  },
+  {
+    "id": 3,
+    "logo": "https://previews.123rf.com/images/djvstock/djvstock1511/djvstock151101888/48229577-web-developer-concept-with-technology-icons-design-vector-illustration-10-eps-graphic.jpg",
+    "categoryNAme": "Web developer",
+    "availability": "230 jobs available"
+  },
+  {
+    "id": 4,
+    "logo": "https://img.freepik.com/premium-vector/data-analytic-logo-design-template_145155-1862.jpg?w=740",
+    "categoryNAme": "Data Analyst",
+    "availability": "157 jobs available"
+  }
+]
