@@ -12,19 +12,19 @@ const Home = () => {
     <div>
       <div className="bg-slate-50 mb-24">
         <div className=" m-auto px-4 w-4/5 md:flex md:justify-between md:items-center">
-          <div className="ml-12">
-            <h1 className="text-7xl w-4/5 mb-4">
+          <div className="ml-12 ">
+            <h1 className="text-7xl w-4/5 mb-4 sm:ml-16 md:ml-0 lg:ml-0">
               One Step <br /> Closer To Your <br />{" "}
               <span className="text-[#7E90FE]">Dream Job</span>{" "}
             </h1>
-            <p className="w-3/5 mb-4">
+            <p className="w-3/5 mb-4 sm:ml-16 md:ml-0 lg:ml-0">
               Explore thousands of job opportunities with all the information
               you need. Its your future. Come find it. Manage all your job
               application from start to finish.
             </p>
-            <button className="btn-primary">Get Started</button>
+            <button className="btn-primary sm:ml-36 md:ml-0 lg:ml-0">Get Started</button>
           </div>
-          <img className="w-2/4" src={image} alt="" />
+          <img className="w-2/4 sm:ml-32 md:ml-0 lg:ml-0" src={image} alt="" />
         </div>
       </div>
       <div>
