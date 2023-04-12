@@ -1,5 +1,5 @@
 ## Project features
-
+* This project is responsive for width(640px - 766px)
 * The featured Job section shows four cards initially but shows all the jobs when "See All Jobs" button is pressed.
 * Statistics option shows the assignments marks in a pie chart and it contains a tooltip.
 * Blog option shows Question and Answers regarding four react hooks.
