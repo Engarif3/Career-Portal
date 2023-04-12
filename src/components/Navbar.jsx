@@ -6,9 +6,9 @@ const Navbar = () => {
     <div className="bg-slate-50">
 
     <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-      <nav className="md:flex justify-around items-center ">
+      <nav className="flex md:flex-row lg:flex-row sm:flex-col justify-around items-center ">
         <h1 className="text-2xl font-extrabold">JobHunter</h1>
-        <div className="flex gap-10">
+        <div className="flex md:flex-row lg:flex-row sm:flex-col md:gap-10 lg:gap-10 sm:gap-4 sm:mb-4 md:mb-0 lg:mb-0 sm:items-center">
           <Link to="/">Home</Link>
           <Link to="/statistics">Statistics</Link>
           <Link to="/applied_jobs">Applied Jobs</Link>
