@@ -31,7 +31,7 @@ const JobDetails = () => {
       salary,
       jobType,
     };
-    if (appliedJobs.some((job) => job.id === id)) {
+    if (appliedJobs.find((job) => job.id === id)) {
       toast.error("You have already applied for this job");
     } else {
       setAppliedJobs([...appliedJobs, appliedJob]);
@@ -181,7 +181,7 @@ const JobDetails = () => {
           </div>
 
           <div className="my-8">
-            <button className="btn-primary w-full" onClick={handleApplyNow}>
+            <button className="btn-primary w-full" onClick={handleApplyNow} >
               Apply Now
             </button>
           </div>
